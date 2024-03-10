@@ -1,0 +1,2 @@
+Q1. Explain the relationship between the "Product" and "Product_Category" entities from the above diagram.
+=> The "Product" table has a column named "category_id" and inventory_id which is a foreign key referencing the primary key ("id") of the "Product_category" table. Similarly "Product" table has a column named "category_id" and inventory_id which is a foreign key referencing the primary key ("id") of the "Product_inventory" table. And "Product" table has a column named "discount_id" which is a foreign key referencing the primary key ("id") of the "discount" table.
